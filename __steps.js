@@ -36,4 +36,20 @@
  * 4. on client side: set fetch with POST, headers, body
  * 5. Make sure you return a json from the POST API
  * 
+ * -------------------------------
+ * LOAD data to the client side
+ * -------------------------------
+ * 1. Create get API on the server
+ * 2. create a query object
+ * 3. collection.find(query)
+ * 4. cursor.toArray()
+ * 5. return the result
+ * 6.  from client useEffect and display like you have done before
+ * 
+ * -----------------------------------------
+ * DELETE 
+ * --------------------------
+ * 
+ * 
+ * 
  */
